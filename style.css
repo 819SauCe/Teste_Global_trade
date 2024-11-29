@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #346bba;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero-section {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #346bba;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, rgba(9, 0, 155, 1) 0%, rgba(9, 67, 121, 1) 50%, rgba(0, 212, 255, 0) 100%);
+    z-index: 2;
+}
+
+.medical-team-image {
+    height: 500px;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+}
+
+.hero-title,
+.hero-subtitle,
+.hero-highlight {
+    color: white;
+    z-index: 3;
+    position: relative;
+    left: 5%;
+    font-size: 60px;
+}
+
+.hero-title {
+    padding-top: 10%;
+}
+
+.main-content {
+    background-color: #346bba;
+}
+
+.info-card {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.card-content {
+    flex: 1;
+    max-width: 50%;
+    margin-right: 20px;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 5%;
+}
+
+.card-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.card-content p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.form-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.success-message {
+    margin-top: 20px;
+    font-size: calc(1.2rem + 0.2vw);
+    color: green;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.success-message.show {
+    opacity: 1;
+}
+
+textarea.form-input {
+    resize: vertical;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+select.form-input {
+    cursor: pointer;
+}
+
+.anatomy-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(9, 67, 121, 1);
+    color: white;
+    text-align: center;
+}
+
+.anatomy-image-container p {
+    margin-right: 9%;
+    font-size: 20px;
+}
+
+.anatomy-image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-info {
+    flex: 1; /* Permite que o footer-info ocupe o espaço disponível */
+    display: flex;
+    justify-content: center; /* Centraliza a localização */
+}
+
+.location-info {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.location-info img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    filter: brightness(0) invert(1); /* Ícone de localização branco */
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha email e telefone à esquerda */
+    margin-left: 20px; /* Espaço à esquerda */
+}
+
+.contact-info div {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.contact-info img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    filter: brightness(0) invert(1); /* Ícones de contato brancos */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-4dAnatomy,
+.logo-global {
+    width: 150px;
+    height: auto;
+    filter: brightness(1.2);
+    margin-left: 20px;
+}
+
+.text-4 {
+    font-size: 32px; /* Ajuste o tamanho conforme necessário */
+    line-height: 1.2; /* Melhora o espaçamento entre linhas */
+    padding-bottom: 20px; /* Aumente o espaçamento inferior se necessário */
+    margin-left: 10%;
+}
+
+
+.benefits-list {
+    margin-left: 10%;
+    font-size: 23px;
+}
+
+.video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #346bba;
+    border-radius: 8px;
+    color: white;
+    
+}
+
+.video-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.video-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.video-iframe {
+    width: 80%;
+    max-width: 800px;
+    height: 450px;
+
+}
+
+.text-5 {
+    padding-bottom: 5%;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative; /* Para permitir que os elementos se posicionem corretamente */
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location-info {
+    width: 290px;
+    cursor: pointer;
+}
+
+.location-info img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    filter: brightness(0) invert(1);
+}
+
+.contact-info {
+    margin-right: 19%;
+}
+
+.contact-info img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    filter: brightness(0) invert(1); /* Ícones de contato brancos */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-4dAnatomy,
+.logo-global {
+    width: 150px;
+    height: auto;
+    filter: brightness(1.2);
+    margin-left: 20px;
+}
+
+.logo-global{
+    filter: brightness(5) saturate(0);
+}

@@ -1,0 +1,437 @@
+* {
+    overflow-x: hidden !important;
+}
+
+@media (max-width: 1900px) {
+
+    .contact-info {
+        margin-right: 20%;
+        font-size: 15px;
+    }
+
+    .location-info {
+        font-size: 15px;
+        margin-left: -30%;
+    }
+
+    .logo-4dAnatomy,
+    .logo-global {
+        width: 120px;
+    }
+
+}
+
+@media (max-width: 1280px) {
+    .card {
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+
+    }
+
+    .info-card {
+        flex-direction: column;
+        /* Muda para coluna em telas menores */
+        align-items: center;
+        /* Centraliza o conteúdo */
+    }
+
+    .card-content,
+    .form-wrapper {
+        margin: 10px 0;
+        /* Espaçamento vertical entre o texto e o formulário */
+        width: 100%;
+        /* Faz com que ocupem toda a largura disponível */
+    }
+
+    .mid {
+        height: auto;
+    }
+
+    .medicos-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .form-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .titulo,
+    .texto,
+    .imgcard h1 {
+        font-size: calc(1rem + 0.5vw);
+        white-space: pre-wrap;
+        text-align: center;
+    }
+
+    .texto {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .imgcard {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .imgcard p {
+        all: unset;
+        max-width: 400px;
+        text-align: center;
+        font-size: calc(0.9rem + 0.5vw);
+    }
+
+    .conteudo-principal {
+        font-size: calc(1rem + 0.2vw);
+    }
+
+    .informacoes {
+        all: unset;
+    }
+
+    .endereco img {
+        width: 12px;
+        height: 12px;
+    }
+
+    footer {
+        font-size: calc(1rem + 0.2vw);
+        text-align: center;
+    }
+
+    .logo-1 {
+        width: 10vw;
+        height: auto;
+    }
+
+    .form-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .form-title {
+        font-size: calc(1.4rem + 0.5vw);
+    }
+
+    .form-label {
+        font-size: calc(0.95rem + 0.2vw);
+    }
+
+    .form-input,
+    .form-button {
+        font-size: calc(0.95rem + 0.2vw);
+    }
+
+    .success-message {
+        font-size: calc(1.1rem + 0.2vw);
+    }
+
+    .contact-info {
+        margin-right: 7%;
+        font-size: 15px;
+    }
+
+    .location-info {
+        font-size: 15px;
+        margin-left: -10%;
+    }
+
+    .logo-4dAnatomy,
+    .logo-global {
+        width: 120px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-card {
+        flex-direction: column;
+        /* Muda para coluna em telas menores */
+        align-items: center;
+        /* Centraliza o conteúdo */
+    }
+
+    .card-content,
+    .form-wrapper {
+        margin: 10px 0;
+        /* Espaçamento vertical entre o texto e o formulário */
+        width: 100%;
+        /* Faz com que ocupem toda a largura disponível */
+    }
+
+    .titulo,
+    .texto,
+    .imgcard h1 {
+        font-size: calc(0.9rem + 0.5vw);
+        text-align: center;
+    }
+
+    .imgcard {
+        margin: 20px 0;
+    }
+
+    .imgcard p {
+        all: unset;
+        max-width: 300px;
+        text-align: center;
+        font-size: calc(0.85rem + 0.5vw);
+    }
+
+    .conteudo-principal {
+        font-size: calc(0.9rem + 0.2vw);
+    }
+
+    footer {
+        font-size: calc(0.9rem + 0.2vw);
+    }
+
+    .logo-1 {
+        width: 8vw;
+    }
+
+    .form-container {
+        padding: 15px;
+    }
+
+    .form-title {
+        font-size: calc(1.3rem + 0.5vw);
+    }
+
+    .form-label {
+        font-size: calc(0.9rem + 0.2vw);
+    }
+
+    .form-input,
+    .form-button {
+        font-size: calc(0.9rem + 0.2vw);
+    }
+
+    .success-message {
+        font-size: calc(1rem + 0.2vw);
+    }
+
+    .contact-info {
+        margin-right: 7%;
+        font-size: 15px;
+    }
+
+    .location-info {
+        font-size: 15px;
+        margin-left: -10%;
+    }
+
+    .logo-4dAnatomy,
+    .logo-global {
+        width: 120px;
+    }
+
+    .info-card {
+        flex-direction: column; /* Muda para coluna em telas menores */
+    }
+
+    .form-wrapper {
+        margin-top: 20px; /* Espaço entre o texto e o formulário */
+        width: 100%; /* Faz com que o formulário ocupe toda a largura */
+    }
+}
+
+@media (max-width: 1000px) {
+    .card {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .contact-info {
+        margin-right: 12%;
+        font-size: 12px;
+    }
+
+    .location-info {
+        font-size: 12px;
+        margin-left: 10%;
+    }
+
+    .logo-4dAnatomy,
+    .logo-global {
+        width: 100px;
+    }
+
+    .info-card {
+        flex-direction: column;
+        /* Muda para coluna em telas menores */
+        align-items: center;
+        /* Centraliza o conteúdo */
+    }
+
+    .card-content,
+    .form-wrapper {
+        margin: 10px 0;
+        /* Espaçamento vertical entre o texto e o formulário */
+        width: 100%;
+        /* Faz com que ocupem toda a largura disponível */
+    }
+
+
+
+    .imgcard p {
+        all: unset;
+        max-width: 300px;
+        text-align: center;
+        font-size: calc(0.8rem + 0.5vw);
+    }
+
+    .conteudo-principal {
+        font-size: calc(0.85rem + 0.2vw);
+    }
+
+    footer {
+        font-size: calc(0.85rem + 0.2vw);
+    }
+
+    .form-title {
+        font-size: calc(1.2rem + 0.5vw);
+    }
+
+    .form-label {
+        font-size: calc(0.85rem + 0.2vw);
+    }
+
+    .form-input,
+    .form-button {
+        font-size: calc(0.85rem + 0.2vw);
+    }
+
+    .success-message {
+        font-size: calc(0.9rem + 0.2vw);
+    }
+
+    .info-card {
+        flex-direction: column; /* Muda para coluna em telas menores */
+    }
+
+    .form-wrapper {
+        margin-top: 20px; /* Espaço entre o texto e o formulário */
+        width: 100%; /* Faz com que o formulário ocupe toda a largura */
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section h2{
+        font-size: 30px;
+    }
+
+    .hero-title{
+        margin-top: 15%;
+    }
+
+    .form-title {
+        font-size: calc(1rem + 0.5vw);
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .logo-4dAnatomy,
+    .logo-global {
+        width: 70px;
+        height: auto;
+        filter: brightness(1.2);
+        margin-left: 20px;
+    }
+
+    .info-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-content,
+    .form-wrapper {
+        margin: 10px 0;
+        /* Espaçamento vertical entre o texto e o formulário */
+        width: 100%;
+        /* Faz com que ocupem toda a largura disponível */
+    }
+
+    .form-label {
+        font-size: calc(0.75rem + 0.2vw);
+    }
+
+    .form-input,
+    .form-button {
+        font-size: calc(0.75rem + 0.2vw);
+    }
+
+    .success-message {
+        font-size: calc(0.8rem + 0.2vw);
+    }
+
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo,
+    .texto,
+    .imgcard h1 {
+        font-size: calc(0.7rem + 0.5vw);
+        text-align: center;
+    }
+
+    .imgcard p {
+        all: unset;
+        max-width: 300px;
+        text-align: center;
+        font-size: calc(0.75rem + 0.5vw);
+    }
+
+    .conteudo-principal {
+        font-size: calc(0.75rem + 0.2vw);
+    }
+
+    footer {
+        font-size: calc(0.75rem + 0.2vw);
+    }
+
+    .logo-1 {
+        width: 10vw;
+    }
+
+    .contact-info {
+        margin-right: 0%;
+        font-size: 10px;
+    }
+
+    .contact-info img{
+        width: 10px;
+        height: auto;
+    }
+
+    .location-info {
+        font-size: 10px;
+        margin-left: 20%;
+    }
+
+    * {
+        padding: 0%;
+    }
+
+    .info-card {
+        flex-direction: column; /* Muda para coluna em telas menores */
+    }
+
+    .form-wrapper {
+        margin-top: 20px; /* Espaço entre o texto e o formulário */
+        width: 100%; /* Faz com que o formulário ocupe toda a largura */
+    }
+}
